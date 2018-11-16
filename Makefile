@@ -11,7 +11,7 @@ ACTIVATE_VENV = . venv/bin/activate
 
 setup: destroy virt-env; . venv/bin/activate
 
-show: setup activate-venv; pytest tests/test.py
+test: setup activate-venv; pytest tests/test.py
 
 activate-venv:
 	. venv/bin/activate

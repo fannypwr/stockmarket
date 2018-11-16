@@ -1,8 +1,8 @@
 import pytest
 from datetime import datetime, timedelta
 
-from stock_project.src import Stock, StockMarket, Trade
-from stock_project.utils import (find_recent_trades, is_recent_trade,
+from stockmarket.src import Stock, StockMarket, Trade
+from stockmarket.utils import (find_recent_trades, is_recent_trade,
                                  convert_to_pounds, convert_to_percent)
 
 NOW = datetime.utcnow()

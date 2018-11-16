@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from functools import reduce
-from stock_project.utils import (find_recent_trades, convert_to_pounds,
+from stockmarket.utils import (find_recent_trades, convert_to_pounds,
                                  convert_to_percent)
 
 
